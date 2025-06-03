@@ -1,0 +1,37 @@
+LOG PRO ATIVIDADE 1: //Atividade 1
+let = (&quot;Jullia&quot;)
+console.log(let)
+//Atividade 2
+let idade = 15;
+console.log(idade);
+//Atividade 3
+let aprendendoJavaScript = true;
+console.log(aprendendoJavaScript);
+//Atividade 4
+let nome = (&quot;Jullia&quot;)
+console.log(nome)
+let sobrenome = (&quot;Marciano&quot;)
+console.log(sobrenome)
+let NomeCompleto = (&quot;Jullia&quot;+&quot;Marciano&quot;)
+console.log (NomeCompleto)
+//Atividade 5
+let numero1 = 10;
+let numero2 = 20;
+console.log(numero1 + numero2);
+//Atividade 6
+let multiplicador1 = 5;
+let multiplicador2 = 4;
+console.log(multiplicador1 * multiplicador2);
+//Atividae 7
+let cidade = &quot;São Paulo&quot;;
+let habitantes = 109.316;
+console.log(cidade, habitantes);
+
+//Atividade 8
+let preco = 50;
+console.log(&quot;Preço inicial:&quot;, preco);
+preco = 75;
+console.log(&quot;Preço atualizado:&quot;, preco);
+//Atividade 9
+let meuNulo = null;
+console.log(meuNulo);
