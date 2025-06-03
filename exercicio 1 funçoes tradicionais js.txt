@@ -1,0 +1,100 @@
+exercicio 1 funçoes tradicionais js: function olaMundo(){
+    console.log("Olá, mundo!");
+}
+olaMundo(); // Resultado: Olá, mundo!
+
+function nomeCompleto(){
+    console.log("Jullia Marciano");
+}
+nomeCompleto();
+
+
+function mostrarIdade() {
+  console.log(16); 
+}
+
+
+function somarDoisNumeros() {
+  console.log(17 + 3);
+}
+
+
+function mostrarMensagem() {
+  console.log("Não desista dos seus sonhos.");
+}
+
+
+function mostrarData() {
+   console.log(06.05.2025);
+}
+
+
+function mostrarCidade() {
+  console.log("São Paulo");
+}
+
+
+function boasVindas(nome) {
+  console.log(`Bem-vindo, ${nome}!`);
+}
+
+
+function subtrair(a, b) {
+  console.log(a - b);
+}
+
+
+function mostrarAnimalFavorito() {
+  console.log("Onça");
+}
+
+
+function aprendendoJS() {
+  console.log("Estou aprendendo JavaScript!");
+}
+
+
+function triplo(numero) {
+  console.log(numero * 3);
+}
+
+
+function mostrarNomeIdade(nome, idade) {
+  console.log(`Nome: ${nome}, Idade: ${idade}`);
+}
+
+
+function contarAte10() {
+  for (let i = 1; i <= 10; i++) {
+    console.log(i);
+  }
+}
+
+function iniciarAula() {
+  console.log("Aula de funções iniciada!");
+}
+
+
+function mostrarNumero(x) {
+  console.log(`Você digitou o número ${x}`);
+}
+
+
+function mostrarCurso() {
+  console.log("Curso de Ingles");
+}
+
+
+function simularChamada() {
+  console.log("Jullia, está presente?");
+}
+
+
+function corFavorita(preto) {
+  console.log(`Sua cor favorita é ${preto}`);
+}
+
+
+function mostrarPais(pais) {
+  console.log(`Você mora no ${pais}`);
+}

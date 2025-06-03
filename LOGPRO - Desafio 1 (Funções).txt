@@ -1,0 +1,41 @@
+log pro desafio 1 (funções) function soma(a, b) {
+    return a + b;
+}
+
+function subtracao(a, b) {
+    return a - b;
+}
+
+function multiplicacao(a, b) {
+    return a * b;
+}
+
+function divisao(a, b) {
+    return a / b;
+}
+
+ let operacao = prompt("Escolha uma operação matemática: soma, subtracao, multiplicacao ou divisao: " );
+
+let num1 = Number(prompt("Digite o numero1: "))
+let num2 = Number(prompt("Digite o numero1: "))
+let resultado
+
+ if (operacao === "soma") {
+    resultado = num1 + num2;
+    console.log("Resultado:" + resultado);
+    
+} else if (operacao === "subtracao") {
+    resultado = num1 - num2;
+    console.log("Resultado: " + resultado);
+    
+} else if (operacao === "multiplicacao") {
+    resultado = num1 * num2;
+    console.log("Resultado: " + resultado);
+    
+} else if (operacao === "divisao") {
+        resultado = num1 / num2;
+        console.log("Resultado: " + resultado);
+        
+     } else {
+    console.log("Operação inválida.");
+}

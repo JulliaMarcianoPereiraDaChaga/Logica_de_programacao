@@ -1,0 +1,225 @@
+LOGPRO - Desafio 2 (Switch Case)  
+Exercicio 1:
+let idade = 20;
+switch (idade >= 18) {
+case true:
+console.log("Maior de idade");
+break;
+case false:
+console.log("Menor de idade");
+break;
+}
+ 
+ 
+Exercicio 2:
+let hora = 14;
+let periodo;
+if (hora >= 6 && hora < 12) periodo = "manha";
+else if (hora >= 12 && hora < 18) periodo = "tarde";
+else periodo = "noite";
+switch (periodo) {
+case "manha":
+console.log("Bom dia");
+break;
+case "tarde":
+console.log("Boa tarde");
+break;
+case "noite":
+console.log("Boa noite");
+break;
+}
+ 
+Exercicio 3:
+let idade = 15;
+switch (idade >= 16) {
+  case true:
+	console.log("Pode entrar");
+	break;
+  case false:
+	console.log("Não pode entrar");
+	break;
+}
+ 
+Exercicio 4:
+let a = 10, b = 20;
+switch (a > b) {
+  case true:
+	console.log("Maior:", a);
+	break;
+  case false:
+	console.log("Maior:", b);
+	break;
+}
+ 
+Exercicio 5:
+let temp = 25;
+let clima;
+if (temp < 20) clima = "frio";
+else if (temp <= 30) clima = "termico";
+else clima = "quente";
+switch (clima) {
+  case "frio":
+	console.log("Frio");
+	break;
+  case "termico":
+	console.log("Térmico");
+	break;
+  case "quente":
+	console.log("Quente");
+	break;
+}
+ 
+Exercicio 6:
+let palavra = "Felicidade";
+switch (palavra === "Felicidade") {
+  case true:
+	console.log("Palavra correta");
+	break;
+  case false:
+	console.log("Palavra incorreta");
+	break;
+}
+ 
+Exercicio 7:
+ 
+let moedas = 15;
+let quantidade;
+if (moedas < 10) quantidade = "poucas";
+else if (moedas <= 20) quantidade = "media";
+else quantidade = "muitas";
+switch (quantidade) {
+  case "poucas":
+	console.log("Poucas moedas");
+	break;
+  case "media":
+	console.log("Quantidade média");
+	break;
+  case "muitas":
+	console.log("Muitas moedas");
+	break;
+}
+ 
+Exercício 8:
+let temperatura = 18;
+let sensacao;
+ 
+if (temperatura < 20) sensacao = "frio";
+else if (temperatura <= 30) sensacao = "calor";
+else sensacao = "muito quente";
+ 
+switch (sensacao) {
+  case "frio":
+	console.log("Frio");
+	break;
+  case "calor":
+	console.log("Calor");
+	break;
+  case "muito quente":
+	console.log("Muito quente");
+	break;
+}
+ 
+Exercício 9:
+let numero = -5;
+ 
+switch (numero >= 0) {
+  case true:
+	console.log("Positivo");
+	break;
+  case false:
+	console.log("Negativo");
+	break;
+}
+ 
+Exercício 10:
+let nota = 6.5;
+ 
+switch (nota >= 7) {
+  case true:
+	console.log("Aprovado");
+	break;
+  case false:
+	console.log("Reprovado");
+	break;
+}
+ 
+Exercício 11:
+let animal = "Gato";
+ 
+switch (animal) {
+  case "Cachorro":
+  case "Gato":
+  case "Pássaro":
+	console.log(animal);
+	break;
+  default:
+	console.log("Animal não listado");
+}
+ 
+Exercício 12:
+let dia = "Domingo";
+ 
+switch (dia) {
+  case "Sábado":
+  case "Domingo":
+	console.log("Fim de semana");
+	break;
+  default:
+	console.log("Dia útil");
+}
+ 
+Exercício 13:
+let experiencia = 3;
+ 
+switch (experiencia > 2) {
+  case true:
+	console.log("Experiente");
+	break;
+  case false:
+	console.log("Iniciante");
+	break;
+}
+ 
+Exercício 14:
+let numero = 15;
+ 
+switch (numero >= 10 && numero <= 20) {
+  case true:
+	console.log("Dentro do intervalo");
+	break;
+  case false:
+	console.log("Fora do intervalo");
+	break;
+}
+ 
+Exercício 15:
+let idade = 17;
+ 
+switch (idade >= 18) {
+  case true:
+	console.log("Pode tirar carteira de motorista");
+	break;
+  case false:
+	console.log("Não pode tirar carteira de motorista");
+	break;
+}
+ 
+Exercício 16:
+let numero = 0;
+let tipo;
+ 
+if (numero > 0) tipo = "positivo";
+else if (numero < 0) tipo = "negativo";
+else tipo = "zero";
+ 
+switch (tipo) {
+  case "positivo":
+	console.log("Positivo");
+	break;
+  case "negativo":
+	console.log("Negativo");
+	break;
+  case "zero":
+	console.log("Zero");
+	break;
+}

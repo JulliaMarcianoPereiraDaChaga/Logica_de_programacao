@@ -1,0 +1,277 @@
+Exercício 1 Switch-Case
+
+//Exercicio 1
+let idioma = prompt("Exercício 1 - Escolha um idioma (Português, Inglês, Espanhol):");
+    switch (idioma) {
+    case "Portugues":
+    console.log("Olá");
+    break;
+    case "Ingles":
+    console.log("Hello");
+    break;
+    case "Espanhol":
+    console.log("Hola");
+    break;
+    default:
+    console.log("Idioma não reconhecido");
+    break
+
+}
+
+//Exercicio 2
+let dia = prompt("Escolha um numero de 1 a 7:" ); {
+    switch (dia) {
+    case "1":
+        console.log("Domingo");
+        break;
+        case "2":
+        console.log("Segunda");
+        break;
+        case "3":
+        console.log("Terça");
+        break;
+        case "4":
+        console.log("Quarta");
+        break;
+        case "5":
+        console.log("Quinta");
+        break;
+        case "6":
+        console.log("Sexta");
+        break;
+        case "7":
+        console.log("Sábado");
+        break;
+      default:
+      console.log("Numero inválido");
+      break;
+    }
+}
+
+//Exercicio 3
+let transporte = prompt("Escolha um número para transporte: ");
+switch (transporte) {
+    case "1":
+        console.log("Carro");
+        break;
+        case "2":
+            console.log("Bicicleta");
+            break;
+            case "3":
+                console.log("Ônibus");
+                break;
+                default:
+                console.log("Transporte não identificado.")
+                break;
+}
+
+//Exercicio 4
+let urgencia = prompt("Numero de urgência: 1- baixa, 2-média, 3- alta: ");
+switch (urgencia) {
+    case "1":
+        console.log("baixa");
+        break;
+        case "2":
+            console.log("média");
+            break;
+            case "3":
+                console.log("alta");
+                break;
+                default:
+                console.log("Nível inválido.")
+                break;
+}
+
+//Exercicio 5
+let mes = (prompt("Digite o número do mês (1-12):"));
+switch (mes) {
+  case "1": case "7":
+    console.log("Lua Nova");
+    break;
+  case "2": case "8":
+    console.log("Quarto Crescente");
+    break;
+  case "3": case "9":
+    console.log("Lua Cheia");
+    break;
+  case "4": case "10":
+    console.log("Quarto Minguante");
+    break;
+  case "5": case "11":
+    console.log("Lua Nova");
+    break;
+  case "6": case "12":
+    console.log("Lua Cheia");
+    break;
+  default:
+    console.log("Mês inválido.");
+}
+
+//Exercicio 6
+let categoriaVeiculo = prompt("Tipo de veículo (compacto, SUV, caminhão):");
+switch (categoriaVeiculo) {
+  case "compacto":
+    console.log("Veículo pequeno e econômico.");
+    break;
+  case "suv":
+    console.log("Veículo utilitário esportivo.");
+    break;
+  case "caminhão":
+    console.log("Veículo de carga pesada.");
+    break;
+  default:
+    console.log("Categoria não reconhecida.");
+    break;
+}
+
+//Exercicio 7
+let tempo = prompt("Tempo estacionado (em horas): " );
+switch (true) {
+  case tempo <= "1":
+    console.log("Tarifa: R$ 4,00");
+    break;
+  case tempo <= "3":
+    console.log("Tarifa: R$ 12,00");
+    break;
+  case tempo <= "6":
+    console.log("Tarifa: R$ 18,00");
+    break;
+  default:
+    console.log("Tarifa: R$ 22,00");
+    break;
+}
+// Exercício 8
+let dificuldade = prompt("Dificuldade (1-Fácil, 2-Médio, 3-Difícil: ");
+switch (dificuldade) {
+  case "1":
+    console.log("Fácil");
+    break;
+  case "2":
+    console.log("Médio");
+    break;
+  case "3":
+    console.log("Difícil");
+    break;
+  default:
+    console.log("Nível inválido.");
+    break;
+}
+
+// Exercício 9
+let servico = prompt("Categoria (yoga, musculacao, personal):");
+switch (servico) {
+  case "yoga":
+    console.log("Aula de Yoga");
+    break;
+  case "musculacao":
+    console.log("Musculação");
+    break;
+  case "personal":
+    console.log("Personal Trainer");
+    break;
+  default:
+    console.log("Serviço não reconhecido.");
+    break;
+}
+
+// Exercício 10
+let ingresso = prompt("Tipo de ingresso (estudante, meia, inteira):");
+switch (ingresso) {
+  case "estudante":
+    console.log("Preço: R$ 10,00");
+    break;
+  case "meia":
+    console.log("Preço: R$ 15,00");
+    break;
+  case "inteira":
+    console.log("Preço: R$ 30,00");
+    break;
+  default:
+    console.log("Categoria inválida.");
+    break;
+}
+
+// Exercício 11
+let idadeExercicio = prompt("Digite sua idade:");
+switch (true) {
+  case idadeExercicio < 18:
+    console.log("Nível: Iniciante");
+    break;
+  case idadeExercicio <= 40:
+    console.log("Nível: Intermediário");
+    break;
+  case idadeExercicio > 40:
+    console.log("Nível: Leve");
+    break;
+  default:
+    console.log("Idade inválida.");
+    break;
+}
+
+// Exercício 12
+let genero = prompt("Gênero musical (rock, jazz, clássico):");
+switch (genero) {
+  case "rock":
+    console.log("Instrumento: Guitarra elétrica");
+    break;
+  case "jazz":
+    console.log("Instrumento: Saxofone");
+    break;
+  case "clássico":
+    console.log("Instrumento: Violino");
+    break;
+  default:
+    console.log("Gênero não reconhecido.");
+    break;
+}
+
+//Exercício 13
+let areaCurso = prompt("Área do curso (front-end, back-end, mobile):");
+switch (areaCurso) {
+  case "front-end":
+    console.log("Curso de HTML, CSS e JavaScript");
+    break;
+  case "back-end":
+    console.log("Curso de Node.js e banco de dados");
+    break;
+  case "mobile":
+    console.log("Curso de desenvolvimento de apps");
+    break;
+  default:
+    console.log("Área inválida.");
+    break;
+}
+
+// Exercício 14
+let idadeAtleta = prompt("Digite a idade do atleta:");
+switch (true) {
+  case idadeAtleta < 12:
+    console.log("Habilidade: Iniciante");
+    break;
+  case idadeAtleta <= 18:
+    console.log("Habilidade: Intermediário");
+    break;
+  case idadeAtleta > 18:
+    console.log("Habilidade: Avançado");
+    break;
+  default:
+    console.log("Idade inválida.");
+    break;
+}
+
+// Exercício 15
+let dificuldadeMat = prompt("Categoria (básico, intermediário, avançado):");
+switch (dificuldadeMat) {
+  case "básico":
+    console.log("Desafio: Operações simples");
+    break;
+  case "intermediário":
+    console.log("Desafio: Equações e frações");
+    break;
+  case "avançado":
+    console.log("Desafio: Cálculo e álgebra linear");
+    break;
+  default:
+    console.log("Categoria inválida.");
+    break;
+}
